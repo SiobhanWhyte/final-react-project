@@ -70,7 +70,7 @@ export default function Weather(props) {
               <input
                 type="submit"
                 value="Search"
-                className="btn btn-outline-info shadow"
+                className="btn btn-outline-info shadow text-warning"
               />
               </div>
               <div className="col-md-auto">
@@ -78,7 +78,7 @@ export default function Weather(props) {
                 <svg
                   width="60"
                   height="20"
-                  fill="babyBlue"
+                  fill="rgb(167, 7, 167)"
                   viewBox="0 0 16 16"
                 >
                   <path
